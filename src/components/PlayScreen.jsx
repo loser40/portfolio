@@ -12,7 +12,7 @@ import { useEffect, useRef } from "react";
 //    2. Set MUSIC_ENABLED = false below
 //    3. Done — no music will play
 // ════════════════════════════════════════════════════════════════
-const MUSIC_ENABLED = true;
+const MUSIC_ENABLED = false;
 const MUSIC_SRC = "/audio/doraemon.mp4";
 // ════════════════════════════════════════════════════════════════
 
