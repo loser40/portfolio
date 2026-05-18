@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import ProjectsList from "./components/ProjectsList";
 import Connect from "./components/Connect";
 import Reveal from "./components/Reveal";
+import { assetPath } from "./utils/assets";
 import "./App.css";
 
 export default function App() {
@@ -52,7 +53,7 @@ export default function App() {
 
   return (
     <div className="app-root">
-      <audio ref={audioRef} src="/audio/doraemon.mp4" loop preload="auto" />
+      <audio ref={audioRef} src={assetPath("/audio/doraemon.mp4")} loop preload="auto" />
 
       {!started ? (
         <PlayScreen audioRef={audioRef} onPlay={() => setStarted(true)} />

@@ -4,13 +4,15 @@
 // ════════════════════════════════════════════════════
 
 // ── CHARACTER SHEETS ──
+import { assetPath } from "../utils/assets";
+
 export const characters = {
   dipak: {
     name: "Dipak Dhurve",
     role: "Builder · Still chasing",
     level: 7,
-    photo: "/characters/dipak.jpg",
-    photoAnime: "/characters/dipak-anime.png",
+    photo: assetPath("/characters/dipak.jpg"),
+    photoAnime: assetPath("/characters/dipak-anime.png"),
     badge: "Polytechnic 2nd Year · Diploma Engineering",
     bio: [
       "I'm Dipak. Polytechnic 2nd year at BKIT (SAKOLI). Newer to this game than Sagar.",
@@ -38,8 +40,8 @@ export const characters = {
     name: "Sagar Mankar",
     role: "Logic-first · Security-leaning · Senpai",
     level: 20,
-    photo: "/characters/sagar.jpg",
-    photoAnime: "/characters/sagar-anime.png",
+    photo: assetPath("/characters/sagar.jpg"),
+    photoAnime: assetPath("/characters/sagar-anime.png"),
     badge: "Polytechnic 2nd Year · Diploma Engineering",
     bio: [
       "I'm Sagar.  Polytechnic 2nd year at BKIT (SAKOLI). Been in this game longer.",
@@ -71,31 +73,31 @@ export const achievements = [
     title: "Diamond Award",
     sub: "GHRSTU INNOVEX-26 · Tech Manthan · State-level Inter-polytechnic",
     date: "12 March 2026",
-    image: "/achievements/diamond-award.jpg",
+    image: assetPath("/achievements/diamond-award.jpg"),
   },
   {
     rank: "200+",
     title: "Real orders, no ads",
     sub: "sanghx.in · 20 days · word of mouth only",
-    image: "/projects/sanghx-real.png",
+    image: assetPath("/projects/sanghx-real.png"),
   },
   {
     rank: "Top 16",
     title: "Sankalp Bharat 2026",
     sub: "National hackathon · 800+ teams · Team PANDA · #16 rank",
-    image: "/projects/sankalp-rank.png",
+    image: assetPath("/projects/sankalp-rank.png"),
   },
   {
     rank: "Launched",
     title: "Cyber Raksha v2",
     sub: "Gaikwad Patil Technofest · app + pc + web",
-    image: "/projects/cyberraksha-real.png",
+    image: assetPath("/projects/cyberraksha-real.png"),
   },
   {
     rank: "24h",
     title: "Pashu Raksha",
     sub: "offline AI cattle disease detection · built in 24 hours",
-    image: "/projects/pashuraksha-real.jpg",
+    image: assetPath("/projects/pashuraksha-real.jpg"),
   },
 ];
 
@@ -208,7 +210,7 @@ export const projects = [
     title: "Sanghx.in",
     summary: "Local food delivery startup. 200+ orders in 20 days, zero rupees on ads. Built solo, launched solo, ran ops on WhatsApp. The first real product that taught me what shipping means.",
     stack: ["Next.js", "Firebase", "WhatsApp ops", "Tailwind"],
-    image: "/projects/sanghx.png",
+    image: assetPath("/projects/sanghx.png"),
     link: "#sanghx-url",
   },
   {
@@ -216,7 +218,7 @@ export const projects = [
     title: "Cyber Raksha",
     summary: "India's AI cybersecurity platform — built for everyday people who don't know how to protect themselves. Won Diamond Award (state-level, GHRSTU INNOVEX-26). v2 launched at Gaikwad Patil Technofest.",
     stack: ["Android", "Kotlin", "PC App", "Next.js"],
-    image: "/projects/cyberraksha.png",
+    image: assetPath("/projects/cyberraksha.png"),
     link: "https://cyber-raksha.vercel.app",
   },
   {
@@ -224,7 +226,7 @@ export const projects = [
     title: "Pashu Raksha · PashuMitra",
     summary: "Offline AI cattle disease detection for farmers. Built in 24 hours for Sankalp Bharat. Edge AI mobile app — works without internet, in any language, for every farmer. Inspired by Pashupatinath.",
     stack: ["Edge AI", "Offline-first", "Multilingual"],
-    image: "/projects/pashuraksha.png",
+    image: assetPath("/projects/pashuraksha.png"),
     link: "https://shiva-caretaker-app.lovable.app",
   },
   {
@@ -232,7 +234,7 @@ export const projects = [
     title: "Eatlo.food",
     summary: "Helped a friend launch the same food delivery playbook from sanghx in his city. Currently expanding. Something bigger coming.",
     stack: ["React", "Firebase", "Tailwind"],
-    image: "/projects/eatlo.png",
+    image: assetPath("/projects/eatlo.png"),
     link: "https://eatlo.food",
   },
 ];
@@ -303,8 +305,8 @@ export const connect = [
     href: "#resume",
     isResumeMerged: true,
     options: [
-      { name: "Dipak Dhurve", handle: "Full-Stack Builder", href: "/resume-dipak.pdf" },
-      { name: "Sagar Mankar", handle: "Security & Logic Dev", href: "/resume-sagar.pdf" },
+      { name: "Dipak Dhurve", handle: "Full-Stack Builder", href: assetPath("/resume-dipak.pdf") },
+      { name: "Sagar Mankar", handle: "Security & Logic Dev", href: assetPath("/resume-sagar.pdf") },
     ],
   },
 ];
