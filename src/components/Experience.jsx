@@ -1,5 +1,7 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { experience } from "../data/content";
+
+const AUTOPLAY_DELAY = 2200;
 
 /**
  * Experience — The Long Voyage.
@@ -12,14 +14,56 @@ import { experience } from "../data/content";
  * No copyrighted characters. Just clean cyan-violet space aesthetic.
  */
 export default function Experience() {
-  const [active, setActive] = useState(experience.length - 2); // start near "now"
+  const [active, setActive] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const listRef = useRef(null);
+  const stopRefs = useRef([]);
+  const resumeTimerRef = useRef(null);
   const stop = experience[active];
+
+  useEffect(() => {
+    if (paused || experience.length <= 1) return undefined;
+
+    const interval = setInterval(() => {
+      setActive((current) => (current + 1) % experience.length);
+    }, AUTOPLAY_DELAY);
+
+    return () => clearInterval(interval);
+  }, [paused]);
+
+  useEffect(() => {
+    const list = listRef.current;
+    const node = stopRefs.current[active];
+    if (!list || !node) return;
+
+    if (active === 0) {
+      list.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    const nextTop = node.offsetTop - list.clientHeight / 2 + node.clientHeight / 2;
+    list.scrollTo({ top: Math.max(0, nextTop), behavior: "smooth" });
+  }, [active]);
+
+  const selectStop = (index) => {
+    setActive(index);
+    setPaused(true);
+    window.clearTimeout(resumeTimerRef.current);
+    resumeTimerRef.current = window.setTimeout(() => setPaused(false), AUTOPLAY_DELAY);
+  };
+
+  useEffect(() => () => window.clearTimeout(resumeTimerRef.current), []);
 
   return (
     <div className="lv-wrap">
       <div className="lv-grid">
         {/* LEFT — Journey checkpoints */}
-        <div className="lv-list">
+        <div
+          className="lv-list"
+          ref={listRef}
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+        >
           <div className="lv-list-head">
             <span className="lv-head-label">TERRA INCOGNITA</span>
             <span className="lv-head-compass">N · S · E · W</span>
@@ -35,8 +79,9 @@ export default function Experience() {
               return (
                 <button
                   key={e.id}
+                  ref={(node) => { stopRefs.current[i] = node; }}
                   className={`lv-stop ${isActive ? "active" : ""} ${isPast ? "past" : ""} ${e.isHere ? "is-here" : ""}`}
-                  onClick={() => setActive(i)}
+                  onClick={() => selectStop(i)}
                 >
                   <span className="lv-stop-lv">Lv. {e.level}</span>
 

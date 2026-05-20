@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import { assetPath } from "../utils/assets";
 
 /**
  * PlayScreen — Black bg + yellow rectangle PLAY button.
@@ -14,7 +13,7 @@ import { assetPath } from "../utils/assets";
 //    3. Done — no music will play
 // ════════════════════════════════════════════════════════════════
 const MUSIC_ENABLED = false;
-const MUSIC_SRC = assetPath("/audio/doraemon.mp4");
+const MUSIC_SRC = "/audio/doraemon.mp4";
 // ════════════════════════════════════════════════════════════════
 
 export default function PlayScreen({ onPlay, audioRef }) {
@@ -22,7 +21,7 @@ export default function PlayScreen({ onPlay, audioRef }) {
 
   useEffect(() => {
     // Preload the click sound
-    clickRef.current = new Audio(assetPath("/audio/click.mp3"));
+    clickRef.current = new Audio("/audio/click.mp3");
     clickRef.current.volume = 0.6;
     document.body.style.overflow = "hidden";
     return () => { document.body.style.overflow = ""; };

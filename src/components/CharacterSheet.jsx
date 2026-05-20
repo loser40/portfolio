@@ -33,7 +33,7 @@ export default function CharacterSheet() {
       </div>
 
       <div className="cs-body" key={active}>
-        <div className="cs-grid">
+        <div className="cs-profile-grid">
           <div className="cs-portrait-col">
             <div className="cs-portrait-frame">
               <Spotlight
@@ -49,13 +49,39 @@ export default function CharacterSheet() {
             </div>
           </div>
 
-          <div className="cs-info">
+          <div className="cs-info cs-main-panel">
             <div className="cs-badge">📜 {me.badge}</div>
             <div className="cs-bio">
               {me.bio.map((line, i) => (
                 <p key={i}>{line}</p>
               ))}
             </div>
+            {me.snapshot && (
+              <div className="cs-snapshot">
+                <div className="cs-snapshot-focus">
+                  <span className="cs-label">Internship snapshot</span>
+                  <strong>{me.snapshot.focus}</strong>
+                </div>
+                <ul className="cs-proof-list">
+                  {me.snapshot.proof.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {me.profileProjects && (
+              <div className="cs-section cs-project-history">
+                <span className="cs-label">Project history</span>
+                <div className="cs-project-grid">
+                  {me.profileProjects.map((project) => (
+                    <article key={project.name} className="cs-profile-project">
+                      <h4>{project.name}</h4>
+                      <p>{project.detail}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            )}
             <div className="cs-section">
               <span className="cs-label">Skills · honest levels</span>
               <div className="cs-skills">
@@ -81,18 +107,18 @@ export default function CharacterSheet() {
 }
 
 function SkillBar({ skill }) {
-  const pct = (skill.lv / 10) * 100;
+  const pct = skill.percent || 0;
   let color = "#475569";
-  if (skill.lv >= 9) color = "#06b6d4";
-  else if (skill.lv >= 7) color = "#22d3ee";
-  else if (skill.lv >= 5) color = "#a5b4fc";
-  else if (skill.lv >= 3) color = "#64748b";
+  if (pct >= 90) color = "#06b6d4";
+  else if (pct >= 70) color = "#22d3ee";
+  else if (pct >= 50) color = "#a5b4fc";
+  else if (pct >= 30) color = "#64748b";
 
   return (
     <div className="sb">
       <div className="sb-row">
         <span className="sb-name">{skill.name}</span>
-        <span className="sb-lv" style={{ color }}>Lv.{skill.lv}<span className="sb-max">/10</span></span>
+        <span className="sb-lv" style={{ color }}>{pct}<span className="sb-max">%</span></span>
       </div>
       <div className="sb-track">
         <div className="sb-fill" style={{

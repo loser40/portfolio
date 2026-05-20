@@ -8,10 +8,21 @@ import Experience from "./components/Experience";
 import ProjectsList from "./components/ProjectsList";
 import Connect from "./components/Connect";
 import Reveal from "./components/Reveal";
-import { assetPath } from "./utils/assets";
+import Admin from "./components/Admin";
 import "./App.css";
 
 export default function App() {
+  // Check if on admin route
+  const isAdmin = window.location.pathname === "/admin";
+  
+  if (isAdmin) {
+    return <Admin />;
+  }
+
+  return <MainPortfolio />;
+}
+
+function MainPortfolio() {
   const scrollRef = useRef(null);
   const audioRef = useRef(null);
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -53,7 +64,7 @@ export default function App() {
 
   return (
     <div className="app-root">
-      <audio ref={audioRef} src={assetPath("/audio/doraemon.mp4")} loop preload="auto" />
+      <audio ref={audioRef} src="/audio/doraemon.mp4" loop preload="auto" />
 
       {!started ? (
         <PlayScreen audioRef={audioRef} onPlay={() => setStarted(true)} />
@@ -160,7 +171,7 @@ export default function App() {
                   <h2>The<br /><span className="grad-cyan">Long Voyage</span></h2>
                 </Reveal>
                 <Reveal delay={240}>
-                  <p className="section-sub">every stop a story. every project a relic. tap a checkpoint to explore.</p>
+                  <p className="section-sub">auto-playing checkpoints. every stop a story. tap anytime to pause and explore.</p>
                 </Reveal>
                 <Reveal delay={360}>
                   <Experience />
@@ -178,7 +189,7 @@ export default function App() {
                   <h2>Things<br /><span className="grad-cyan">We've Shipped</span></h2>
                 </Reveal>
                 <Reveal delay={240}>
-                  <p className="section-sub">real products. real users. real bugs at 2am.</p>
+                  <p className="section-sub">real launches. real users. real deadline pressure.</p>
                 </Reveal>
                 <Reveal delay={360}>
                   <ProjectsList />

@@ -6,7 +6,6 @@ import { useRef, useMemo, useEffect, useState } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useTexture } from "@react-three/drei";
 import * as THREE from "three";
-import { assetPath } from "../utils/assets";
 
 function lerp(a, b, t) { return a + (b - a) * t; }
 
@@ -54,7 +53,7 @@ function Particles({ count = 180 }) {
 
 function TimeMachinePlane({ mouseX, mouseY }) {
   const meshRef = useRef();
-  const texture = useTexture(assetPath("/machine.png"));
+  const texture = useTexture("/machine.png");
 
   useFrame(({ clock }) => {
     if (!meshRef.current) return;

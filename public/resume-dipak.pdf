@@ -1,99 +1,131 @@
-%PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%PDF-1.7
 1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
->>
+<< /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
->>
+<< /Type /Pages /Kids [7 0 R] /Count 1 >>
 endobj
 3 0 obj
-<<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 4 0 obj
-<<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 5 0 obj
-<<
-/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Length 8081 >>
+stream
+q 1.000 1.000 1.000 rg 0 0 595.28 841.89 re f Q
+q 0.059 0.090 0.165 rg 0 0 14 841.89 re f Q
+q 0.059 0.090 0.165 rg BT /F2 25 Tf 40 785 Td (Dipak Dhurve) Tj ET Q
+q 0.031 0.569 0.698 rg BT /F2 11 Tf 40 764 Td (Creative Developer | Web, Mobile App & AI Integration) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.50 Tf 40 746 Td (Diploma Engineering | Polytechnic 2nd Year | BKIT Sakoli | Open to creative developer internships) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F1 8.50 Tf 40 731 Td (GitHub: github.com/dipakdhurve9975-lgtm) Tj ET Q
+q 0.031 0.569 0.698 RG 1.10 w 40 713 m 555.28 713 l S Q
+q 0.031 0.569 0.698 rg BT /F2 8 Tf 40 686 Td (EDUCATION) Tj ET Q
+q 0.796 0.835 0.882 RG 0.60 w 40 681 m 198 681 l S Q
+q 0.278 0.333 0.412 rg BT /F1 9 Tf 40 668 Td (Diploma Engineering) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 9 Tf 40 655 Td (Polytechnic 2nd Year) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 9 Tf 40 642 Td (BKIT Sakoli) Tj ET Q
+q 0.031 0.569 0.698 rg BT /F2 8 Tf 40 617 Td (OPEN TO) Tj ET Q
+q 0.796 0.835 0.882 RG 0.60 w 40 612 m 198 612 l S Q
+q 0.059 0.090 0.165 rg BT /F2 9 Tf 40 599 Td (Creative Developer Intern |) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9 Tf 40 586.50 Td (Web/App Intern | AI) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9 Tf 40 574 Td (Integration Intern) Tj ET Q
+q 0.031 0.569 0.698 rg BT /F2 8 Tf 40 549.50 Td (CORE STRENGTHS) Tj ET Q
+q 0.796 0.835 0.882 RG 0.60 w 40 544.50 m 198 544.50 l S Q
+q 0.031 0.569 0.698 rg 40 534.50 3.20 3.20 re f Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 531.50 Td (UI visualisation and frontend) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 519.30 Td (implementation) Tj ET Q
+q 0.031 0.569 0.698 rg 40 505.10 3.20 3.20 re f Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 502.10 Td (Product thinking, demo) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 489.90 Td (storytelling, fast prototyping) Tj ET Q
+q 0.031 0.569 0.698 rg 40 475.70 3.20 3.20 re f Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 472.70 Td (Critical thinking under short) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 460.50 Td (deadlines) Tj ET Q
+q 0.031 0.569 0.698 rg 40 446.30 3.20 3.20 re f Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 443.30 Td (Collaborative project building) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.80 Tf 51 431.10 Td (and pitch support) Tj ET Q
+q 0.031 0.569 0.698 rg BT /F2 8 Tf 40 405.90 Td (TECHNICAL SKILLS) Tj ET Q
+q 0.796 0.835 0.882 RG 0.60 w 40 400.90 m 198 400.90 l S Q
+q 0.059 0.090 0.165 rg BT /F2 8.60 Tf 40 387.90 Td (Web) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 376.90 Td (HTML, CSS, JavaScript, React) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 365.70 Td (\(learning\), Three.js \(exploring\)) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 8.60 Tf 40 346.50 Td (Mobile App Development) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 335.50 Td (XML, Flutter) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 8.60 Tf 40 316.30 Td (AI Tooling) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 305.30 Td (AI-assisted workflows, prompt) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 294.10 Td (iteration, product integration) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 8.60 Tf 40 274.90 Td (Programming) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 263.90 Td (Java, C++, basic Assembly) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 8.60 Tf 40 244.70 Td (Workflow) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 233.70 Td (Firebase basics, GitHub, deployment) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 222.50 Td (basics) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 8.60 Tf 40 203.30 Td (Creative edge) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 192.30 Td (User flows, visual systems, product) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.20 Tf 40 181.10 Td (demos, presentation clarity) Tj ET Q
+q 0.031 0.569 0.698 rg BT /F2 8 Tf 224 686 Td (PROFILE) Tj ET Q
+q 0.796 0.835 0.882 RG 0.60 w 224 681 m 555 681 l S Q
+q 0.278 0.333 0.412 rg BT /F1 9.10 Tf 224 668 Td (Diploma engineering student building across web, mobile app) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 9.10 Tf 224 655 Td (interfaces, AI tooling, and product demos while learning deeper every) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 9.10 Tf 224 642 Td (week. Strongest edge is visualisation: turning rough ideas into clear) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 9.10 Tf 224 629 Td (UI flows, product stories, demos, and screens people understand.) Tj ET Q
+q 0.031 0.569 0.698 rg BT /F2 8 Tf 224 602 Td (SELECTED PROJECT WORK) Tj ET Q
+q 0.796 0.835 0.882 RG 0.60 w 224 597 m 555 597 l S Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 584 Td (Cyber Raksha v1/v2) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 572 Td (Helped ship a cybersecurity awareness platform across app/web/PC presence. v1) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 561.50 Td (won Diamond Award and 1st place at GHRSTU INNOVEX-26; v2 improved bugs and) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 544 Td (Pashu Raksha / PashuMitra) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 532 Td (Integrated an offline chatbot utilizing a local AI model for cattle disease) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 521.50 Td (detection. Built entirely during an intense 24-hour hackathon sprint under) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 504 Td (MVP Genie) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 492 Td (Built with interactive parallax UI and AI context memory integration, shaping) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 481.50 Td (the landing page into a stronger AI-product story.) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 464 Td (Smart Leads Dashboard) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 452 Td (MERN stack project for managing business leads, with frontend UI, CRUD) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 441.50 Td (operations, lead states, filters, and export-ready flows.) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 424 Td (JGU University Site) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 412 Td (Modern, tech-driven UI clone with polished navigation, responsive layout, and) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 401.50 Td (admissions-style presentation.) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 384 Td (Sanghx.in) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 372 Td (Built and operated local food-ordering flows with WhatsApp operations. Reached) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 361.50 Td (200+ paying orders in 20 days through word of mouth, with real users and real) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 344 Td (Eatlo.food) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 332 Td (Helped adapt the food-ordering playbook for another city launch with) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 321.50 Td (frontend/product support and ongoing expansion work.) Tj ET Q
+q 0.059 0.090 0.165 rg BT /F2 9.40 Tf 224 304 Td (Sankalp Bharat 2026) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 292 Td (Team PANDA reached Top 16 nationally among 800+ teams. Contributed product) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 8.10 Tf 224 281.50 Td (thinking, pitch flow, and rapid build execution under pressure.) Tj ET Q
+q 0.031 0.569 0.698 rg BT /F2 8 Tf 224 248 Td (ACHIEVEMENTS) Tj ET Q
+q 0.796 0.835 0.882 RG 0.60 w 224 243 m 555 243 l S Q
+q 0.031 0.569 0.698 rg 224 233 3.20 3.20 re f Q
+q 0.278 0.333 0.412 rg BT /F1 8.50 Tf 235 230 Td (Diamond Award, 1st place - GHRSTU INNOVEX-26 Tech Manthan, 12 March 2026) Tj ET Q
+q 0.031 0.569 0.698 rg 224 218.10 3.20 3.20 re f Q
+q 0.278 0.333 0.412 rg BT /F1 8.50 Tf 235 215.10 Td (Top 16 - Sankalp Bharat 2026 national hackathon, 800+ teams) Tj ET Q
+q 0.031 0.569 0.698 rg 224 203.20 3.20 3.20 re f Q
+q 0.278 0.333 0.412 rg BT /F1 8.50 Tf 235 200.20 Td (200+ real local orders through Sanghx.in in 20 days) Tj ET Q
+q 0.925 0.996 1.000 rg 40 38 515.28 34 re f Q
+q 0.031 0.569 0.698 rg BT /F2 8.20 Tf 52 58 Td (Honest resume note) Tj ET Q
+q 0.278 0.333 0.412 rg BT /F1 7.70 Tf 52 46 Td (Current skill levels reflect active learning and real project work, with steady improvement through each build.) Tj ET Q
+endstream
 endobj
 6 0 obj
-<<
-/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Annot /Subtype /Link /Rect [76 727 266 739] /Border [0 0 0] /A << /S /URI /URI (https://github.com/dipakdhurve9975-lgtm) >> >>
 endobj
 7 0 obj
-<<
-/PageMode /UseNone /Pages 9 0 R /Type /Catalog
->>
-endobj
-8 0 obj
-<<
-/Author (\(anonymous\)) /CreationDate (D:20260508080907+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260508080907+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
->>
-endobj
-9 0 obj
-<<
-/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
->>
-endobj
-10 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2130
->>
-stream
-Gau0DbBDVu&Dd46B%>ou&ju.7ZFflH-Zp'B;OT/LJOi=b71q'Ub0`6Jp^['3-/5fm8q)U$WPQfL\T\6%@,a*os+Vu<aTUI+&0M`^Aj@?RJ]SXs:QGE<,5%.[%jT96LN1Q](3."f%-!["hZ6+El['c;7qd^c[a@^)FtKpj]9]@s&q=GZJV1EZ&KIG5-!e;h>f[Y,"-Yg6r!pWH8'm04pq?'OkuF<kD.i,#M!5d`rDjra<>Cn#*AFS1+iFW'0#-o+pFY,g^Iq'0O]"0bjud-Inn\eG<CAB:n./b<8MV89)D9r,>c(C6bMe-\Mk!4T;Xbr@EoVVhKa6K3QJmJZRPg7ZX*k%s70(`1^iOU:Lh*@`FR[>gC^fi+178#hA<qBgUc4E9O_uJh"9/sl0R=1k;ZUAc^c\#]3<#<,MQ9(K5KWsbHQL(]UiB!_RRQ]nPr-*_$S%iu",L*4amk%<E@);Q?OpO<(F%gWH[IE.[F.!YGl+@`oDrEeCEd<d$0D=kQc4&*P1%6.=)frP6BT!?FAYM=9a8GT*@>im52tEHr4P0IHkLZN(6rh(>iMfB<TV$@LEj]hq^.A<SOpIf?sKk'm@q/!Ao8Z)DXY6mE(e*7iug,RDKSt:rUu=,Sl6E[mODoVD0kt7!mS<>+J^L1>s_a)Tc9]Pa<+b^0k5LS77M:o,#,%A5FG6Z/b5Z3-S[026pkZ"a#*t6jeNJf=[X)G>[6:=83LFF<$lh?>ru`.HEh./<KJf?WZXM6`E-"^h4n.&=@Xh2=t/mEL`f/Rj?o%1qmFAs/.3?b%/EP[iOt=E"SZ^>bClm`OD-n/pE,/Q;f"'Zqb&C+=K(dV9--g3(q#.!(p-8D`=fFLEBaPS#e@bFi:9PIoSk/E`T.s.Ffq+?*Nl;6jt&&/=)4K'<3cpre_OQ$(UI7rdBm,P92hk0/Jh!P0XWoY+@-bUF%hqDKSQp>2W1$)\OXNcW@/HS[2s'^QBHt0+&"r-o[i%j"bp)ePq+;hH+PZbS0fd-iiXeK6+[o,kEV0sB8[Di"](<:kc6G)fPTXJ=)j;E]m@09EkgLPG-RRN8'9NT7a4se/a#_N+-c@E\tT9dIJ\0fqJqN;0@^%T-_IS]Gs!.`%E%8#87+)$1IV38blB)qAB_R,EVY8rok-t`jU3]/Xqn[eCat02451Gug8d$>klu8W#B2!OASsFWf2W-m\13%1I/j!0qbK2F3=iAsIirkp`qpD/35g&f:=sZJ1>P`-8L\U),I.!8\!6=:g"%Ct?;&/?K$*0B\eu?g*Qtl@@SF+Rr6%@!]!\UO>\H,XCZOQf<f=\bD85c)iH>[cp'[=2B@uK[)SuH2fN5*%l\AR=n^LCi*MIYViqSgu7U*ko"-p2IrL^p_U#/>J4)/(.E>p-;1/LMpVT6-T2qm)gJ@9MY(n<b*E/>/SLr6<VNEIInZ"Ff^&h0"eA5r<TVO_QiKYZgAF3_p7fF*FV3&%EsJ^JEFBGbflM?kc^Hs;U?4,?kL':EU'&CGW\SPb8R*ol':`F0\I;V\>J)+<g]ou&cUrTM?`<EI$c$hop<@em3M`SPd7X!4Gc8T7A&$E//mcTY=M[&3RC,;d4S.d%D]6=A.@^+1fu_^:=>Y?3e:2N6+<C@hXRM?DM2Uf7;<AN>MJa4V+cV\l,gdmDC18p&,BD)K;?L"77m1<hD)Lbtl>$Olod'==p0IT5[]UR\X2kkWO!P2kl-*p2F90(PCHMI9(^=a^dB@'h![SSjuBhRBD=Qd?SUIAg=`:%,Vn]"Gj3r6uU!F#Kbd'Y&Yu,91)eX&iRlGgOVo*fSh%<c@pJpM`[6HU=a(Koo+Rj17fraZ8B<'c=)+%$VG0+"hKOPOJ#2bEoD^Sc9[5*ZjtCJ2g4ZYRl\6aV95j:W+Q?nql"05<T@7Y&R>1WRhaQg'r7NoX-_lj,"k\&3XjpHH>2._p]8W7m&+_f9QJYW"KDC)rp?_a-%b"7JSA4P+_Va@6!9qXuc-LNBF3cO.+-o9!o=m"0j7b5As!r_dp,%9K)KkkHg@ag5W)#$3da[$`g6B<Mkq?lJn0SVc0`7OZ7UT>X$W+h1ME[mKnl4L>]"gYY;tJnDpW-A.H<pH532hY([!SV$i_Ci?Y9[ZJiT7H+h$UDPJ%foIkkT4Nm~>endstream
-endobj
-11 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 669
->>
-stream
-Gau0@9lo#B&A@Zcp6]rRCC+3'a3`1d2FH6WIa)h/D1MkrjN;M1r;3WO+Uq/f!O-26Z!+ispXZqZHsC31:CD\=!cQs0+;BtVOMD5H\V4J?q;!25cQIt@a3Y]@T$Qn`_"7F(+Ye3eV"b.;hE`9i`C@39ETn7J5s;hRF"-NG+ge;q+^%)$V?uo!fCNr<p>RtQnL1JXmmG,?60S%tA1rsW0*JIS8]^aIGMU[4UBQ=(iD[SR--0C#\SLpupAaC8YC0d=G;^aEoSgg(1^fnJ;)Zkbl4N/KE<'>:)7+g#K2sm(_uE@f;E;7M]J)C!b8%K(9IYtZqW;[YI"fsmr9;u*8!buu3:93/(+!#Nc4m*odRg5.8^67Yn_ZYTb!.U,?tIrc-X8=8.UeE[b8jD$BodPWOt4'$l&r[V'uoT^N7j=1IlDO"1,'WJi2XCE<b5)fDI$NLDgm=9pD:$[V,Z6pN%Obs'+7Q*3B.Z55qS@+F/s=aQ:S-VQ'8$W0WT?-WGlRr6DUc9>%b]=r`F,YZ4KWCZ!R_KD3I+rO:ANWjfc*.nND'N.E;:iL"rqgEVLC9YUWnOi25Ede8l=&=K1I;4o9'FK+ht%ANDuh!/a5A.Ca4VEaX0!E8=L],PIp>La?quFG7W1FookrP3/iCB)Zb#%D4MimcXkG5DZ:spA~>endstream
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R /Annots [6 0 R] >>
 endobj
 xref
-0 12
+0 8
 0000000000 65535 f 
-0000000073 00000 n 
-0000000124 00000 n 
-0000000231 00000 n 
-0000000343 00000 n 
-0000000458 00000 n 
-0000000652 00000 n 
-0000000846 00000 n 
-0000000914 00000 n 
-0000001197 00000 n 
-0000001262 00000 n 
-0000003484 00000 n 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000008393 00000 n 
+0000008545 00000 n 
 trailer
-<<
-/ID 
-[<9baeb9863b5a0aa2c3db1ea4312fbdad><9baeb9863b5a0aa2c3db1ea4312fbdad>]
-% ReportLab generated PDF document -- digest (http://www.reportlab.com)
-
-/Info 8 0 R
-/Root 7 0 R
-/Size 12
->>
+<< /Size 8 /Root 1 0 R >>
 startxref
-4244
+8703
 %%EOF
